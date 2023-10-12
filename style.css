@@ -1,0 +1,13 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card>img {
+    width: 150px;
+    object-fit: cover;
+}
+.card>h6{
+    font-size: 5px;
+}

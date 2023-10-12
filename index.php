@@ -42,14 +42,14 @@ Al click su un disco, recuperare e mostrare i dati del disco selezionato.
     <div class="container">
         <div class="row">
 
-            <div class="col-2">
+            <div v-for="(task, index) in todos" :key="task + index" class="col-2">
 
                 <div class="card d-flex align-items-center">
 
-                    <img src="https://picsum.photos/200/300" alt="">
-                    <h4>{{todos}}</h4>
-                    <p>cioa</p>
-                    <h4>cioa</h4>
+                    <img class="poster" :src="task.poster" alt="">
+                    <h6>{{task.title}}</h6>
+                    <p>{{task.author}}</p>
+                    <h6>{{task.year}}</h6>
 
                 </div>
 
