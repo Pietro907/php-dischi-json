@@ -9,7 +9,10 @@
     object-fit: cover;
 }
 .card>h6{
-    font-size: 5px;
+    font-size: 13px;
+}
+.card>p{
+    font-size: 11px;
 }
 .width{
     width: calc(100vw - 200px);
