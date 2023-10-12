@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.card>img {
+.card>img, .modal-body>img {
     width: 150px;
     object-fit: cover;
 }

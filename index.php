@@ -57,10 +57,7 @@ Al click su un disco, recuperare e mostrare i dati del disco selezionato.
                     <div v-for="(task, index) in todos" :key="task + index" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog m_auto">
                             <div class="modal-content width">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
+                        
                                 <div class="modal-body">
                                     <img class="poster" :src="task.poster" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <h6>{{task.title}}</h6>
