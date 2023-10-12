@@ -12,5 +12,9 @@
     font-size: 5px;
 }
 .width{
-    width: 800px;
+    width: calc(100vw - 200px);
+    height: calc(100vh - 200px);
+}
+.m_auto{
+    margin: 0;
 }
