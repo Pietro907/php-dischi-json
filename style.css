@@ -16,7 +16,7 @@
 }
 .width{
     width: calc(100vw - 200px);
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
 }
 .m_auto{
     margin: 0;

@@ -1,10 +1,15 @@
 <?php
+//Prendo il file json
+$todos = file_get_contents('todos.json');
 
-$todos = json_decode(file_get_contents('todos.json'), true);
+//Controllo esista
+//var_dump($todos);
 
+//Collego con il metodo header il file json all #app
 header('Content-Type: application/json');
 
-echo json_encode($todos);
+//Stampo a schermo il json e verifico che sia scritto bene
+echo $todos;
 
 
 

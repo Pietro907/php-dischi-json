@@ -39,22 +39,21 @@ Al click su un disco, recuperare e mostrare i dati del disco selezionato.
 
     <div id="app">
 
-        <div class="container">
-            <div class="row">
+        <div class="container my-5">
+            <div class="row d-flex flex-wrap">
 
-                <div v-for="(task, index) in todos" :key="task + index" class="col-2">
+                <div v-for="task in todos" class="col-4">
 
-                    <div class="card d-flex align-items-center">
-
-                        <img class="poster" :src="task.poster" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <!-- Card contenenti task singole del todos -->
+                    <div class="card border-0 d-flex align-items-center my-5">
+                        <img class="poster" :src="task.poster" alt="" data-bs-toggle="modal" data-bs-target="#modal">
                         <h6>{{task.title}}</h6>
                         <p>{{task.author}}</p>
                         <h6>{{task.year}}</h6>
-
                     </div>
 
                     <!-- Modal -->
-                    <div v-for="(task, index) in todos" :key="task + index" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog m_auto">
                             <div class="modal-content width">
                         
