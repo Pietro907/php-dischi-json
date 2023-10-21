@@ -27,6 +27,8 @@
         "genre": "Pop"
     },
     {
+        "d": "#f4",
+        "dd": "f4",
         "title": "Steve Gadd band",
         "author": "Steve Gadd Band",
         "year": 2018,
@@ -34,6 +36,8 @@
         "genre": "Jazz"
     },
     {
+        "d": "#f5",
+        "dd": "f5",
         "title": "Brave new World",
         "author": "Iron Maiden",
         "year": 2000,
@@ -41,6 +45,8 @@
         "genre": "Metal"
     },
     {
+        "d": "#f6",
+        "dd": "f6",
         "title": "One more car, one more rider",
         "author": "Eric Clapton",
         "year": 2002,
